@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #111827;
+    background-color: #f9fafb;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background-color: #dc2626;
+    color: #ffffff;
+  }
+}
+
+/* CMRG Red & Black Brand Patterns */
+.bg-cmrg-dark {
+  background-color: #0b0f17;
+}
+
+.bg-cmrg-black {
+  background-color: #05070a;
+}
+
+.bg-cmrg-red {
+  background-color: #ff2d20;
+}
+
+.text-cmrg-red {
+  color: #ff2d20;
+}
+
+.border-cmrg-red {
+  border-color: #ff2d20;
+}
+
+.cmrg-pattern-grid {
+  background-image: radial-gradient(rgba(255, 45, 32, 0.15) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.cmrg-squares-accent {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 3px;
+}

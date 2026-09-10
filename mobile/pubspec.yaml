@@ -1,0 +1,32 @@
+name: cmrg_collect
+description: "CMRG Collect - Enterprise Offline Survey Data Collection Android Application"
+publish_to: 'none'
+version: 2.4.0+240
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  sqflite: ^2.3.2
+  path_provider: ^2.1.2
+  path: ^1.9.0
+  shared_preferences: ^2.2.2
+  uuid: ^4.3.3
+  geolocator: ^11.0.0
+  image_picker: ^1.0.7
+  record: ^5.0.4
+  intl: ^0.19.0
+  crypto: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/

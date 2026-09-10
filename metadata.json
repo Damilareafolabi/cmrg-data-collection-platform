@@ -1,0 +1,7 @@
+{
+  "name": "CMRG Data Collection Platform",
+  "description": "Enterprise survey data collection platform with offline synchronization, XLSForm import, PostgreSQL database, and CMRG Collect Android APK support.",
+  "requestFramePermissions": ["geolocation", "microphone", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
